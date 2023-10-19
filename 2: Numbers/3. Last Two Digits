@@ -1,0 +1,3 @@
+num=int(input()) 
+ltd=num % 100 
+print(ltd)
