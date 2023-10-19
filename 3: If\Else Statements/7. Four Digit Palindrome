@@ -1,0 +1,10 @@
+a=str(input())
+A=a[0]
+B=a[1]
+C=a[2]
+D=a[3]
+br=D+C+B+A
+if br==a:
+    print("YES")
+else:
+    print("NO")
