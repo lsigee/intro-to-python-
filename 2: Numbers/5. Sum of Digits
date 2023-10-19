@@ -1,0 +1,8 @@
+a=str(input())
+if 3>len(a)>3:
+    print("ehaehah")
+else:
+    b=int(a[0])
+    c=int(a[1])
+    d=int(a[2])
+    print(b+c+d)
