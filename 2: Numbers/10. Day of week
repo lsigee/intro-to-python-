@@ -1,0 +1,10 @@
+k=int(input())
+if 1>k or k>365:
+    print("na")
+else:
+    tk=k//52
+    print(tk)
+    tkk=tk+4
+    print(tkk)
+    tkkk=tkk%7
+    print(tkkk)
