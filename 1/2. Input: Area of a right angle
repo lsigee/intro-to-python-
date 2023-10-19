@@ -1,0 +1,4 @@
+b=int(input())
+h=int(input())
+bh=(b*h)
+print(bh/2)
