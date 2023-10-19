@@ -1,0 +1,8 @@
+N=int(input())
+M=int(input())
+g=(M%N)
+if g>0:
+    a=(M//N)
+    print(a+1)
+else:
+    print(M//N)
