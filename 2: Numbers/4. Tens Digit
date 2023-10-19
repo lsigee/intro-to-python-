@@ -1,0 +1,10 @@
+num=int(input()) 
+if num>9:
+    ltd=num%100 
+    ltdd=str(ltd)
+    ltddd=(ltdd[0])
+    print(ltddd)
+else:
+    ddd=str(num)
+    dd=int("0"+ddd)
+    print(dd//10)
