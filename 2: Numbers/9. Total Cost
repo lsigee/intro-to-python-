@@ -1,0 +1,9 @@
+d=int(input())
+c=int(input())
+cc=int(input())
+ce=d*100+c
+N=cc*ce
+dollars=(N//100)
+cents=(N%100)
+print(dollars)
+print(cents)
