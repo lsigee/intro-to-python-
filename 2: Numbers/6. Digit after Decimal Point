@@ -1,0 +1,5 @@
+a=float(input())
+b=(a*10)
+c=(b//1)
+d=int(c)
+print(d%10)
