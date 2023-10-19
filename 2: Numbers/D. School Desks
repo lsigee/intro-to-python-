@@ -1,0 +1,8 @@
+kidsa=int(input())
+kidsb=int(input())
+kidsc=int(input())
+ka=(kidsa+1)//2
+kb=(kidsb+1)//2
+kc=(kidsc+1)//2
+desk=ka+kb+kc
+print(desk)
