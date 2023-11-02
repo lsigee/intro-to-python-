@@ -1,0 +1,13 @@
+m=int(input())
+d=int(input())
+months=[31,28,31,30,31,30,31,31,30,31,30,31]
+dd=(months[m-1])
+if d != dd:
+    print(m)
+    print(d+1)
+elif m==12 and d==31:
+    print("1")
+    print("1")
+else:
+    print(m+1)
+    print("1")
