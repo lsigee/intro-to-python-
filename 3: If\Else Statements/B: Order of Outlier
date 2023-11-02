@@ -1,0 +1,14 @@
+zzz="0"
+a=int(input())
+b=int(input())
+c=int(input())
+d=[zzz,a,b,c]
+if a==b:
+    g=d.index(c)
+    print(g)
+elif a==c:
+    g=d.index(b)
+    print(g)
+else:
+    g=d.index(a)
+    print(g)
