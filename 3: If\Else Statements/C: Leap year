@@ -1,0 +1,11 @@
+a=int(input())
+b=a//4
+if a/400 == a//400:
+    print("LEAP")
+elif a/4 == b:
+    if a/100 == a//100:
+        print("COMMON")
+    else:
+        print("LEAP")
+else:
+    print("COMMON")
